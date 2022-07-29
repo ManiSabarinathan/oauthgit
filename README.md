@@ -4,7 +4,7 @@ Spring boot application
 When the user tries to access any endpoint , the user will be redirected to the github to authenticate before proceeding further.
 
 Dependencies in pom.xml
-   
+  ` 
 <dependency>
    <groupId>org.springframework.boot</groupId>
    <artifactId>spring-boot-starter-web</artifactId>
@@ -13,7 +13,7 @@ Dependencies in pom.xml
    <groupId>org.springframework.boot</groupId>
    <artifactId>spring-boot-starter-oauth2-client</artifactId>
 </dependency>
-
+`
 
 OAuth configuration in application.properties /. .yml file 
 
